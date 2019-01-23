@@ -11,6 +11,37 @@
     crossorigin="anonymous">
 
   <title>It's not you...It's Me!</title>
+  <style> 
+  
+      body {
+        background-image: url(az_subtle.png)
+       } 
+       .navbar
+            {
+              text-align: center;  
+              border-bottom:2px solid rgb(37, 148, 156);
+            }
+        .navbar-nav {
+          justify-content: center;
+        }
+      /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 768px) {
+      div {
+        font-size: 16px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
+    
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 600px) {
+      div h2 {
+        font-size: 10px;
+      }
+    }      
+       </style>
+    
 </head>
 
 <body>
