@@ -16,9 +16,12 @@
    } 
    .navbar
         {
-          justify-content: center;  
+          text-align: center;  
           border-bottom:2px solid rgb(37, 148, 156);
         }
+    .navbar-nav {
+      justify-content: center;
+    }
   /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 768px) {
   div {
@@ -45,15 +48,15 @@
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
-    <a class="navbar-brand " style= " background-color: #43aebdb4;" href="#">Brian Jandron</a>
+    <a class="navbar-brand " style= " background-color: #43aebdb4; color: #ffffff;" href="#">Brian Jandron</a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
         <li class="nav-item active">
-          <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
