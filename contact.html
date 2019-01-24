@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
   <title>It's not you...It's Me!</title>
-  <style> 
-  
-      body {
+  <style>
+
+    body {
         background-image: url(az_subtle.png)
        } 
        .navbar
@@ -40,59 +40,78 @@
       }
     }      
        </style>
-    
+
 </head>
 
 <body>
   <!--Main site Header-->
   <!--Main site Navigation-->
-  <div class="navbar navbar-light navbar-expand-lg" style= "background-color: #ffffff; ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <a class="navbar-brand " style= " background-color: #43aebdb4; color: #ffffff;" href="index.html">Brian Jandron</a>
-  
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item active">
-            <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!--Main site full content-->
-  <section class="page">
-      <div class="write">
-        <h2 class="about">Contact</h2>
-  
-        <form id="form" action="#">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="...">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="...">
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="I spy.." style="height:200px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-  
-      </div>
-    </section>
-      <!--Main site Footer-->
-    <footer class="footer">@Copyright</footer>
-  
+  <div class="navbar navbar-light navbar-expand-lg" style="background-color: #ffffff; ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff;" href="index.html">Brian Jandron</a>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item active">
+          <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--Main site full content-->
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-9">
+      <div class="card">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">First Name</label>
+            <input type="fname" class="form-control" id="exampleFormControlInput1" placeholder="...">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Last Name</label>
+            <input type="lname" class="form-control" id="exampleFormControlInput1" placeholder="...">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Inquiry</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+  <div class ="row">
+    <div class="col-2"></div>
+        <div class="form-group row">
+            <div class="col-sm-20">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </div>
+    </div>
+  </div>
+  <!--Main site Footer-->
+  <div class="footer">
+    <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; ">
+      @Copyright
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

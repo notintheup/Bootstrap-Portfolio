@@ -9,21 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
-
   <title>It's not you...It's Me!</title>
-  <style> 
-  
-      body {
+  <style>
+    body {
         background-image: url(az_subtle.png)
        } 
-       .navbar
-            {
+       .navbar {
               text-align: center;  
               border-bottom:2px solid rgb(37, 148, 156);
             }
-        .navbar-nav {
-          justify-content: center;
-        }
       /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
     @media screen and (min-width: 768px) {
       div {
@@ -33,7 +27,6 @@
         font-size: 24px;
       }
     }
-    
     /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 600px) {
       div h2 {
@@ -41,70 +34,94 @@
       }
     }      
        </style>
-    
+
 </head>
 
 <body>
   <!--Main site Header-->
   <!--Main site Navigation-->
-  <div class="navbar navbar-light navbar-expand-lg" style= "background-color: #ffffff; ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <a class="navbar-brand " style= " background-color: #43aebdb4; color: #ffffff;" href="index.html">Brian Jandron</a>
-  
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item active">
-            <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+  <div class="navbar navbar-light navbar-expand-lg" style="background-color: #ffffff; ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff;" href="index.html">Brian Jandron</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item active">
+          <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--Main site full content-->
+  <div class="card">
+    <div class="row">
+      <div class="col-2">
+        <h2>Portfolio</h2>
       </div>
     </div>
-      <!--Main site full content-->
-    <section class="page">
-      <!-- <div class="write"> -->
-      <section class="gallery">
-        <h2 class="about">Portfolio</h2>
+    <div class="row">
+      <div class="col-3">
         <div class="container">
           <img src="assets/images/port1.jpg" alt="Avatar" class="image">
           <div class="overlay">Hangman</div>
         </div>
+      </div>
+      <div class="col-3">
         <div class="container">
-          <img src="assets/images/port2.jpg" alt="Avatar" class="image">
-          <div class="overlay">RPG Game</div>
+          <img src="assets/images/port1.jpg" alt="Avatar" class="image">
+          <div class="overlay">Hangman</div>
+          </div>
         </div>
-        <div class="container">
-          <img src="assets/images/port3.jpg" alt="Avatar" class="image">
-          <div class="overlay">Trivia Game</div>
+          <div class="col-3">
+            <div class="container">
+              <img src="assets/images/port1.jpg" alt="Avatar" class="image">
+              <div class="overlay">Hangman</div>
+            </div>
+          </div>
         </div>
-        <div class="container">
-          <img src="assets/images/port4.jpg" alt="Avatar" class="image">
-          <div class="overlay">Rutgers Info Widget</div>
+      </div>
+      <div class="row">
+          <div class="col-3">
+            <div class="container">
+              <img src="assets/images/port1.jpg" alt="Avatar" class="image">
+              <div class="overlay">Hangman</div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="container">
+              <img src="assets/images/port1.jpg" alt="Avatar" class="image">
+              <div class="overlay">Hangman</div>
+              </div>
+            </div>
+              <div class="col-3">
+                <div class="container">
+                  <img src="assets/images/port1.jpg" alt="Avatar" class="image">
+                  <div class="overlay">Hangman</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!--Main site Footer-->
+      <div class="footer">
+        <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; ">
+          @Copyright
         </div>
-        <div class="container">
-          <img src="assets/images/port5.jpg" alt="Avatar" class="image">
-          <div class="overlay">Rock Paper Scissors</div>
-        </div>
-  
-      </section>
-    </section>
-    <!--Main site Footer-->
-    <footer class="footer">@Copyright</footer>
-    
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+          crossorigin="anonymous"></script>
 </body>
 
 </html>
