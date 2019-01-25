@@ -23,7 +23,7 @@
               text-align: center;  
               border-bottom:2px solid rgb(37, 148, 156);
               padding-bottom: 2px;
-              justify-content: center;
+              justify-content: center; padding-bottom: 2px; margin-bottom: 15px;
             }
     body {
         background-image: url(az_subtle.png)
@@ -32,6 +32,10 @@
       max-width: 960px;
       width: 100%;
     }
+    .footer {
+      justify-content: flex-start;
+      border-top: 2px solid rgb(37, 148, 156); margin-top: 15px;
+
       /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
     @media screen and (min-width: 768px) {
       div {
@@ -55,25 +59,26 @@
 <body>
   <!--Main site Header-->
   <!--Main site Navigation-->
-  <div class="navbar navbar-light navbar-expand-lg" style="background-color: #ffffff; ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
-    </button>
-    <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff;" href="index.html">Brian Jandron</a>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-        <li class="nav-item active">
-          <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+  <div class="navbar navbar-light navbar-expand-lg" style="background-color: #ffffff; justify-content: center;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff; justify-content: center; padding: 15px;"
+        href="index.html">Brian Jandron</a>
+  
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <!--Main site full content-->
+    <!--Main site full content-->
   <div class="container">
   <div class="row">
     <div class="col-12"></div>
