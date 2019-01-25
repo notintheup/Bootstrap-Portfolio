@@ -11,18 +11,27 @@
     crossorigin="anonymous">
   <title>It's not you...It's Me!</title>
   <style>
+.container {
+      max-width: 960px;
+      width: 100%;
 
+    }
     body {
         background-image: url(az_subtle.png)
        } 
-       .navbar
-            {
+       .navbar {
               text-align: center;  
               border-bottom:2px solid rgb(37, 148, 156);
+              padding-bottom: 2px;
+              justify-content: center;
             }
-        .navbar-nav {
-          justify-content: center;
-        }
+    body {
+        background-image: url(az_subtle.png)
+       } 
+    .card {
+      max-width: 960px;
+      width: 100%;
+    }
       /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
     @media screen and (min-width: 768px) {
       div {
@@ -65,9 +74,10 @@
     </div>
   </div>
   <!--Main site full content-->
+  <div class="container">
   <div class="row">
-    <div class="col-2"></div>
-    <div class="col-9">
+    <div class="col-12"></div>
+    <div class="col-12">
       <div class="card">
         <form>
           <div class="form-group">
@@ -91,17 +101,18 @@
   <div class ="row">
     <div class="col-2"></div>
         <div class="form-group row">
-            <div class="col-sm-20">
+            <div class="col-sm-50" style="justify-content: left;">
               <button type="submit" class="btn btn-primary">Sign in</button>
             </div>
           </div>
     </div>
   </div>
+</div>
   <!--Main site Footer-->
   <div class="footer">
-    <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; ">
-      @Copyright
-    </div>
+      <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; position: fixed; width: 100%; justify-content: center; height: 50px; ">
+        @Copyright
+      </div>
 
 
     <!-- Optional JavaScript -->

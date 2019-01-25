@@ -10,19 +10,31 @@
     crossorigin="anonymous">
   <title>It's not you...It's Me!</title>
   <style>
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+    body {
+        background-image: url(az_subtle.png)
+       } 
+       .navbar {
+              text-align: center;  
+              border-bottom:2px solid rgb(37, 148, 156);
+              padding-bottom: 2px;
+            }
     body {
     background-image: url(az_subtle.png)
    } 
    .navbar
         {
-          text-align: center;  
           border-bottom:2px solid rgb(37, 148, 156);
         }
+ 
   .footer {
       justify-content: flex-start;
       border-top: 2px solid rgb(37, 148, 156);
   }
-  /*f the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  /*f the screen size is 601px wide or more, set the font-size of <div> to 16px */
 @media screen and (min-width: 768px) {
   div {
     font-size: 16px;
@@ -32,7 +44,7 @@
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 600px wide or less, set the font-size of <div> to 10px */
 @media screen and (max-width: 600px) {
   div h2 {
     font-size: 10px;
@@ -48,9 +60,8 @@
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
-    <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff;" href="#">Brian Jandron</a>
-
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff;" href="#">Brian Jandron</a>
       <ul class="navbar-nav mr-auto mt-2 mt-md-0">
         <li class="nav-item active">
           <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
@@ -63,7 +74,6 @@
   </div>
   <!--Main site Content-->
   <div class="container">
-
     <div class="card">
       <div class="row">
         <div class="col-2">
@@ -71,7 +81,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-4">
           <img class="img img-thumbnail .img-fluid. max-width: 100%" src="../Bootstrap-Portfolio/assets/images/IMG_0665.JPG"></div>
         <div class="col-6">
           <p>I am a senior management leader working to build my cloud-centric developer
@@ -87,14 +97,14 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
   <!--Main site Footer-->
   <div class="footer">
-      <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; ">
+      <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; position: fixed; width: 100%; justify-content: center; height: 50px; ">
         @Copyright
       </div>
-      
-          
+  
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
