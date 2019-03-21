@@ -1,0 +1,31 @@
+.container {
+  max-width: 960px;
+  width: 100%;
+
+}
+
+body {
+  background-image: url(az_subtle.png)
+}
+
+.navbar {
+  text-align: center;
+  border-bottom: 2px solid rgb(37, 148, 156);
+  padding-bottom: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+
+  body {
+    background-image: url(az_subtle.png)
+  }
+
+  .card {
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .footer {
+    justify-content: flex-start;
+    border-top: 2px solid rgb(37, 148, 156);
+    margin-top: 15px;
+  }

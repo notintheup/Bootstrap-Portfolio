@@ -1,0 +1,46 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+body {
+  background-image: url("../assets/images/az_subtle.png")
+}
+
+.navbar {
+  text-align: center;
+  padding-bottom: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+}
+.img {
+  border-radius: 50%;
+  width: 300px;
+}
+.card {
+  padding: 20px;
+}
+.footer {
+  justify-content: flex-start;
+  margin-top: 15px;
+  color: whitesmoke;
+
+}
+
+/* if the screen size is 601px wide or more, set the font-size of <div> to 16px */
+@media screen and (min-width: 768px) {
+  div {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 10px */
+@media screen and (max-width: 600px) {
+  div h2 {
+    font-size: 10px;
+  }
+}

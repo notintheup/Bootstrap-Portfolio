@@ -2,85 +2,80 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-  <title>It's not you...It's Me!</title>
-  <style>
-    .container {
-      max-width: 960px;
-      width: 100%;
-    }
-    body {
-        background-image: url("../assets/images/az_subtle.png")
-       } 
-       .navbar {
-              text-align: center;  
-              border-bottom:2px solid rgb(37, 148, 156);
-              padding-bottom: 2px; padding-bottom: 2px; margin-bottom: 15px;
-            }
-    body {
-    background-image: url(az_subtle.png)
-   } 
-  .footer {
-      justify-content: flex-start;
-      border-top: 2px solid rgb(37, 148, 156); margin-top: 15px;
-  }
-  /*f the screen size is 601px wide or more, set the font-size of <div> to 16px */
-@media screen and (min-width: 768px) {
-  div {
-    font-size: 16px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="/dist/vue-social-sharing.min.js"></script>
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 10px */
-@media screen and (max-width: 600px) {
-  div h2 {
-    font-size: 10px;
-  }
-}      
-   </style>
+  <title>It's not you...It's Me!</title>
 </head>
 
 <body>
   <!--Main site Navigation-->
-  <div class="navbar navbar-light navbar-expand-lg" style="background-color: #ffffff; justify-content: center;">
+  <div class="navbar navbar-expand-lg" style="background-color: #ffffff; justify-content: center;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
-    <a class="navbar-brand " style=" background-color: #43aebdb4; color: #ffffff; justify-content: center; padding: 15px;"
-      href="index.html">Brian Jandron</a>
+    <a class="navbar-brand "
+      style=" color: #554f4f; justify-content: center; padding: 10px;"
+      href="index.html">Brian Jandron<span class="sr-only">(current)</span></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-md-0">
         <li class="nav-item active">
-          <a class="nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          <a class="nav-link " href="portfolio.html">Portfolio </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
+    <social-sharing url="https://vuejs.org/"
+                      title="The Progressive JavaScript Framework"
+                      description="Intuitive, Fast and Composable MVVM for building interactive interfaces."
+                      quote="Vue is a progressive framework for building user interfaces."
+                      hashtags="vuejs,javascript,framework"
+                      twitter-user="vuejs"
+                      inline-template>
+  <div>
+      <network network="email">
+          <i class="fa fa-envelope"></i> Email
+      </network>
+      <network network="facebook">
+        <i class="fa fa-facebook"></i> Facebook
+      </network>
+      <network network="linkedin">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </network>
+      <network network="skype">
+        <i class="fa fa-skype"></i> Skype
+      </network>
+      <network network="sms">
+        <i class="fa fa-commenting-o"></i> SMS
+      </network>
+      <network network="twitter">
+        <i class="fa fa-twitter"></i> Twitter
+      </network>
+      <network network="whatsapp">
+        <i class="fa fa-whatsapp"></i> Whatsapp
+      </network>
+  </div>
+</social-sharing>
   </div>
   <!--Main site Content-->
   <div class="container">
     <div class="card">
       <div class="row">
         <div class="col-2">
-          <h2>About Me</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-4">
-          <img class="img img-thumbnail .img-fluid. max-width: 100%" src="../Bootstrap-Portfolio/assets/images/IMG_0665.JPG"
-            style="margin-left: 15px;"></div>
+          <img class="img img-thumbnail .img-fluid. max-width: 100%"
+            src="../Bootstrap-Portfolio/assets/images/myAvatar.png" style="margin-left: 15px;"></div>
         <div class="col-6">
           <p>I am a senior management leader working to build my cloud-centric developer
             portfolio by learning code, the logic behind it and how to efficiently write it. I am
@@ -98,18 +93,20 @@
   </div>
   <!--Main site Footer-->
   <div class="footer">
-    <div class="navbar navbar-light navbar-expand-lg" style="background-color: #0cb8b8; position: fixed; width: 100%; justify-content: center; height: 50px; ">
+    <div class="navbar fixed-bottom navbar-dark bg-dark navbar-expand-lg"
+      style="width: 100%; justify-content: center; height: 50px; ">
       @Copyright
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"></script>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 
 </body>
 
