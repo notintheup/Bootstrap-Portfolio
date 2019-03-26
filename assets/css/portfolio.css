@@ -30,21 +30,19 @@
 .col-md-4 img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 250px;
 }
-
 .col-md-4 h3 {
   position: absolute;
-  width: 90.5%;
+  width: 92%;
   bottom: 20px;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
+  background: #8fa5a4;
 }
 /* Style all font awesome icons */
 .fa {
@@ -72,4 +70,31 @@
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* LinkedIn */
+.fa-linkedin {
+  background: #55ACEE;
+  color: rgb(175, 105, 105);
+}
+/* GitHub */
+.fa-github {
+  background: #55ACEE;
+  color: rgb(61, 56, 56);
+}
+/* Resume */
+.fa-file {
+  background: #55ACEE;
+  color: rgb(24, 21, 196);
 }
