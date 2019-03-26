@@ -77,3 +77,9 @@
   background: #55ACEE;
   color: rgb(24, 21, 196);
 }
+/* AWS */
+.fa-amazon {
+  background: orange;
+  color: white;
+  border-radius: 5px;
+}
